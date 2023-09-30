@@ -19,7 +19,7 @@ class ProductController extends BaseController
        $this->user = new \App\Models\UserModel();
 
     }
-     public function productDetails($id)
+     public function productDetail($id)
      {
         $product = $this->product->find($id);
         if ($product)
@@ -28,18 +28,22 @@ class ProductController extends BaseController
                 'product' => $product
             ];
 
-            return view ('productDetails', $data);
+            return view ('product', $data);
         } else{
             return redirect() ->to('/home');
         }
     }
+
+    
      public function index()
     {
           $data =[
             'product' => $this->product->findAll();
           ];
-          return view ('index',$data);
+          return view ('productDetail',$data);
     }
+
+
     public function login()
     {
         $session = session();
