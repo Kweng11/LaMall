@@ -22,12 +22,14 @@
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
+
+
         <div class= "row">
           <?php foreach ($products as $product): ?>
             <div calss="col-lg-3 col-md-6 text-center">
               <div class= "single-product-item">
                 <div class= "product-image">
-                  <a href="single-product.html"><img src="<?= $pro['image']?>"alt=""></a>
+                  <a href="single-product.html"><img src="<?= $product['image']?>"alt=""></a>
                 </div>
                 				<h3> <?= $product['name']?></h>
                           <p class="product-price">₱<?= $product['price']?></p>

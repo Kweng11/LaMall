@@ -9,7 +9,7 @@ use App\Controllers\BaseController;
 class ProductController extends BaseController
 {
 
-    private $Products;
+    private $product;
 
     private $user;
 
@@ -21,14 +21,14 @@ class ProductController extends BaseController
     }
      public function productDetails($id)
      {
-        $Products = $this->product->find($id);
-        if (  $Products)
+        $product = $this->product->find($id);
+        if ($product)
         {
             $data = [
-                'product' =>  $Products
+                'product' => $product
             ];
 
-            return view ('productDetail', $data);
+            return view ('productDetails', $data);
         } else{
             return redirect() ->to('/home');
         }
