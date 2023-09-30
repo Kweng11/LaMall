@@ -9,8 +9,9 @@
           <!-- logo -->
           <div class="site-logo">
             <a href="index.html">
-              <img src="img/images/logo.jpg" alt="" width='60'>
+              <img src="img/images/LOGO.png" alt="">
             </a>
+
           </div>
           <!-- logo -->
               <!-- menu start -->

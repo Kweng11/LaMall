@@ -43,6 +43,13 @@ class ProductController extends BaseController
           return view ('index',$data);
     }
 
+    public function shop(){
+        $data = [
+            'products' => $this -> product->findAll()
+        ];
+        return view ('products', $data);
+    }
+
     public function login()
     {
         $session = session();

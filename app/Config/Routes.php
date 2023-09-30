@@ -7,3 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/productDetail','ProductController::index');
+$routes->get('/shop', 'ProductController::shop');
+$routes->get('/admins', 'AdminController::admin');
