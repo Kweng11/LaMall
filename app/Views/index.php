@@ -5,4 +5,6 @@
       <?= $this->include('inc/hero')?>
       <?= $this->include('inc/list')?>
       <?= $this->include('inc/productDetail')?>
+      <?= $this->include('inc/cart')?>
+      <?= $this->include('inc/shopbanner')?>
 </body>

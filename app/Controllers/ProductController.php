@@ -28,21 +28,20 @@ class ProductController extends BaseController
                 'product' => $product
             ];
 
-            return view ('product', $data);
+            return view ('index', $data);
         } else{
             return redirect() ->to('/home');
         }
     }
 
-    
-     public function index()
+
+    public function index()
     {
           $data =[
-            'product' => $this->product->findAll();
+            'product' => $this->product->findAll(),
           ];
-          return view ('productDetail',$data);
+          return view ('index',$data);
     }
-
 
     public function login()
     {

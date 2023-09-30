@@ -23,24 +23,23 @@
 					</div>
 				</div>
 
-
         <div class= "row">
-          <?php foreach ($products as $product): ?>
-            <div calss="col-lg-3 col-md-6 text-center">
-              <div class= "single-product-item">
-                <div class= "product-image">
-                  <a href="single-product.html"><img src="<?= $product['image']?>"alt=""></a>
-                </div>
-                				<h3> <?= $product['name']?></h>
-                          <p class="product-price">₱<?= $product['price']?></p>
-                          <p> <?=$product['description']?></p>
-                          <p> <?=$product['category']?></p>
-                          <p> <?=$product['quantity']?></p>
-                      <a href="cart.html" class"cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</a>
-               </div>
-             </div>
-                      <?php endforeach; ?>
-            </div>
-         </div>
+                  <?php foreach($product as $products): ?>
+                    <div calss="col-lg-3 col-md-6 text-center">
+                      <div class= "single-product-item">
+                        <div class= "product-image">
+                          <a href="single-product.html"><img src="<?= $products['images']?>"alt=""></a>
+                        </div>
+                        		<h3> <?= $products['name']?></h>
+                                  <p class="product-price">₱<?= $products['price']?></p>
+                                  <p> <?=$products['description']?></p>
+                                  <p> <?=$products['category']?></p>
+                                  <p> <?=$products['quantity']?></p>
+                              <a href="cart.html" class"cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</a>
+                       </div>
+                     </div>
+                              <?php endforeach; ?>
+                    </div>
+                 </div>
      </div>
   </div>
