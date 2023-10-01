@@ -7,11 +7,6 @@ use App\Models\UserModel;
 class AdminController extends BaseController
 {
 
-  public function admin()
-     {
-         return view ('/admin/index');
-
-     }
   public function login()
   {
       helper(['form']);
@@ -48,6 +43,13 @@ class AdminController extends BaseController
           echo view('signup', $data);
       }
   }
+
+  public function logout()
+{
+    $session = session();
+    $session->destroy(); // Destroy the user's session data
+    return redirect()->to('/home'); // Redirect to the login page or any other page you prefer
+}
 
   public function authlog()
   {

@@ -1,5 +1,5 @@
 <?php
-	
+
 	if( empty( $_POST['token'] ) ){
 		echo '<span class="notice">Error!</span>';
 		exit;
@@ -8,23 +8,23 @@
 		echo '<span class="notice">Error!</span>';
 		exit;
 	}
-	
+
 	$name = $_POST['name'];
 	$from = $_POST['email'];
 	$phone = $_POST['phone'];
 	$subject = stripslashes( nl2br( $_POST['subject'] ) );
 	$message = stripslashes( nl2br( $_POST['message'] ) );
-	
+
 	$headers ="From: Form Contact <$from>\n";
 	$headers.="MIME-Version: 1.0\n";
 	$headers.="Content-type: text/html; charset=iso 8859-1";
-	
+
 	ob_start();
 	?>
 		Hi imransdesign!<br /><br />
 		<?php echo ucfirst( $name ); ?>  has sent you a message via contact form on your website!
 		<br /><br />
-		
+
 		Name: <?php echo ucfirst( $name ); ?><br />
 		Email: <?php echo $from; ?><br />
 		Phone: <?php echo $phone; ?><br />
@@ -37,8 +37,8 @@
 	<?php
 	$body = ob_get_contents();
 	ob_end_clean();
-	
-	$to = 'support@fruitkha.com';
+
+	$to = 'miamorerage@gmail.com';
 
 	$s = mail($to,$subject,$body,$headers,"-t -i -f $from");
 
@@ -48,5 +48,5 @@
 		echo '<div>Your message sending failed!</div>';
 	}
 
-	
+
 ?>
