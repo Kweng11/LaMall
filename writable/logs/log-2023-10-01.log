@@ -514,3 +514,71 @@ in APPPATH\Controllers\ProductController.php on line 41.
  6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LaMalls\\public\\index.php')
+CRITICAL - 2023-10-01 15:57:26 --> Undefined property: App\Controllers\ProductController::$med
+in APPPATH\Controllers\ProductController.php on line 46.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$med', 'C:\\laragon\\www\\LaMalls\\app\\Controllers\\ProductController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LaMalls\\public\\index.php')
+CRITICAL - 2023-10-01 15:58:16 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\admin.php on line 167.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\ProductController.php(48): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LaMalls\\public\\index.php')
+CRITICAL - 2023-10-01 15:59:42 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\admin.php on line 169.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\ProductController.php(48): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LaMalls\\public\\index.php')
+CRITICAL - 2023-10-01 15:59:43 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\admin.php on line 169.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\ProductController.php(48): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LaMalls\\public\\index.php')
+CRITICAL - 2023-10-01 15:59:44 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\admin.php on line 169.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\ProductController.php(48): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LaMalls\\public\\index.php')
+CRITICAL - 2023-10-01 15:59:44 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\admin.php on line 169.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\ProductController.php(48): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LaMalls\\public\\index.php')
+CRITICAL - 2023-10-01 15:59:44 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\admin.php on line 169.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\ProductController.php(48): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LaMalls\\public\\index.php')

@@ -43,7 +43,7 @@ public function edit($id)
   public function admin()
   {
     $data = [
-      'items' => $this->med->findAll()
+      'items' => $this->mall->findAll()
     ];
     return view('admin', $data);
       }

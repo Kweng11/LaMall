@@ -13,8 +13,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <style>
 body {
-	color: #566787;
-	background: #f5f5f5;
+	color: #003049;
+	background: #d8e2dc;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 13px;
 }

@@ -23,15 +23,15 @@
 
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href=" <?= base_url()?>css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="<?= base_url()?>css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="<?= base_url()?>css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -47,7 +47,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="assets/img/images/logo.png" alt="">
             <span>
-              Medion
+              Healthy Grams
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -164,9 +164,9 @@
 										<?= $m['price']; ?>
 									</td>
 									<td>
-										<a href="/edit/<?= $['m'] ?>" class="edit"><i
+										<a href="/edit/<?= ['$m'] ?>" class="edit"><i
 												class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a></a>
-										<a href="/delete/<?= $['id'] ?>" class="delete"><i data-toggle="tooltip" class="material-icons"
+										<a href="/delete/<?= ['$id'] ?>" class="delete"><i data-toggle="tooltip" class="material-icons"
 												title="Delete">&#xE872;</i></a>
 									</td>
 								</tr>
