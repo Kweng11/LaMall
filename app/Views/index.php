@@ -10,6 +10,4 @@
       <?= $this->include('inc/news')?>
       <?= $this->include('inc/adver')?>
       <?= $this->include('inc/footer')?>
-  
-
 </body>

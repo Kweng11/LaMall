@@ -47,10 +47,20 @@ class ProductController extends BaseController
         $data = [
             'products' => $this -> product->findAll()
         ];
-        return view ('products', $data);
+        return view ('index', $data);
     }
 
-    public function login()
+
+    public function news(){
+        $data = [
+            'products' => $this -> product->findAll()
+        ];
+        return view ('index', $data);
+    }
+
+
+
+      public function login()
     {
         $session = session();
         if (isset($_POST['login']))
